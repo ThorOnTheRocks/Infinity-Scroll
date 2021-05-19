@@ -23,6 +23,7 @@ h1 {
   font-size: 5rem;
   text-align: center;
   margin-top: 3.5rem;
+  margin-bottom: 2.5rem;
   letter-spacing: 1.3rem;
 }
 
@@ -32,7 +33,7 @@ h1 {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(255, 255, 255, 0.8);
+  
 }
 
 .loader img {
@@ -40,5 +41,14 @@ h1 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 10rem;
+
+}
+
+.image-container {
+  margin: 1rem 30%;
+}
+
+.image-container img {
+  width: 100%;
+  margin-top: 5px;
 }
